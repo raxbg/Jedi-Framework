@@ -2,8 +2,8 @@
 define('DEFAULT_CONTROLLER', 'home');
 //define('_DB_PREFIX_', 'jedi_');
 define('USE_DATABASE', false);
-define('DB_USERNAME', 'root');
-define('DB_PASSWORD', '321cefe');
+define('DB_USERNAME', '');
+define('DB_PASSWORD', '');
 define('DB_HOST', 'localhost');
 define('DB_NAME', 'jedi');
 define('DS', DIRECTORY_SEPARATOR);

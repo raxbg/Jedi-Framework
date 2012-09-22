@@ -1,0 +1,25 @@
+<?php
+define('DEFAULT_CONTROLLER', 'home');
+//define('_DB_PREFIX_', 'jedi_');
+define('USE_DATABASE', false);
+define('DB_USERNAME', 'root');
+define('DB_PASSWORD', '321cefe');
+define('DB_HOST', 'localhost');
+define('DB_NAME', 'jedi');
+define('DS', DIRECTORY_SEPARATOR);
+define('ROOT_DIR', dirname($_SERVER['SCRIPT_FILENAME']));
+define('CONFIG_DIR', ROOT_DIR.DS.'config');
+define('CACHE_DIR', ROOT_DIR.DS.'cache');
+define('MODULES_DIR', ROOT_DIR.DS.'modules');
+define('CLASSES_DIR', ROOT_DIR.DS.'classes');
+define('RESOURCE_DIR', ROOT_DIR.DS.'resources');
+define('APPLICATION_DIR', ROOT_DIR.DS.'application');
+define('CONTROLLERS_DIR', APPLICATION_DIR.DS.'controllers');
+define('MODELS_DIR', APPLICATION_DIR.DS.'models');
+define('VIEWS_DIR', APPLICATION_DIR.DS.'views');
+define('APP_JS_DIR', APPLICATION_DIR.DS.'javascript');
+define('APP_CSS_DIR', APPLICATION_DIR.DS.'css');
+define('SYSTEM_JS_DIR', RESOURCE_DIR.DS.'javascript');
+define('SYSTEM_CSS_DIR', RESOURCE_DIR.DS.'css');
+define('USE_CACHE', false);
+require_once "autoload.php";

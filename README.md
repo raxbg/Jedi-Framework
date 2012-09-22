@@ -1,4 +1,4 @@
 Jedi-Framework
 ==============
 
-A simple php MVC framework
+May the source be with you!
